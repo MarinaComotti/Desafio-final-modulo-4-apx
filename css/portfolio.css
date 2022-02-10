@@ -10,6 +10,8 @@ body {
   /* border: solid black; */
   background-image: url("./portfolio-background2.jpg");
   height: 316vh;
+  background-size: cover;
+  
  
 }
 @media (min-width: 960px) {

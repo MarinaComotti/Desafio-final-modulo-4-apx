@@ -21,7 +21,7 @@ body {
 .servicios {
   /* border: solid green; */
   height: 251vh;
-  min-width: 380px;
+  width: 100%;
   font-size: 30px;
   text-align: center;
   margin-top: 45px;

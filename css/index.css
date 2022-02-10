@@ -7,34 +7,40 @@ body {
 }
 
 .container-header-welcome {
-  min-width: 380px;
+  width: 100%;
   height: 95vh;
   background-image: url("./background\ index.jpg");
   background-size: cover;
   /* https://eda.europa.eu/images/default-source/news-pictures/solar-panels-and-wind.jpeg */
 }
 
-
 .welcome {
-  min-width: 380px;
+  width: 100%;
   height: 80vh;
   /* border: solid salmon; */
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 }
 
 .welcome__title-main {
-  font-size: 75px;
+  font-size: 60px;
   text-align: center;
   text-shadow: black 0.1em 0.1em 0.2em;
   color: white;
+  margin: auto;
+}
+
+@media (min-width: 960px){
+  .welcome__title-main{
+    font-size: 70px;
+  }
 }
 
 /* PRESENTATION CSS */
 
 .presentation {
-  min-width: 380px;
+  min-width: 300px;
   height: 95vh;
   background-color: hsla(0, 0%, 5%, 0.533);
   display: flex;
@@ -43,14 +49,13 @@ body {
   justify-content: center;
 }
 
-.presentation-container__card{
+.presentation-container__card {
   width: 100%;
   height: 100%;
 }
 
 @media (min-width: 960px) {
   .presentation-container__card {
-    
     display: grid;
     grid-template-columns: 0.8fr 1fr;
     justify-items: center;
@@ -70,7 +75,7 @@ body {
   }
 }
 
-.presentation__container{
+.presentation__container {
   width: 100%;
   height: 100%;
   padding-top: 45px;
@@ -94,10 +99,9 @@ body {
   max-width: 421px;
   height: 450px;
   margin: 50px auto 0 auto;
-
 }
-@media (min-width: 960px){
-  .presentation__container__text{
+@media (min-width: 960px) {
+  .presentation__container__text {
     text-align: justify;
   }
 }
@@ -105,7 +109,7 @@ body {
 /* SERVICES index CSS */
 
 .services {
-  min-width: 380px;
+  min-width: 300px;
   height: 265vh;
 }
 @media (min-width: 960px) {
@@ -145,12 +149,11 @@ body {
   align-items: center;
   justify-content: space-evenly;
   border-radius: 10px;
-	box-shadow: 1px 1px 12px -5px rgb(0 0 0 / 90%);
+  box-shadow: 1px 1px 12px -5px rgb(0 0 0 / 90%);
 }
 .services-container__card:hover {
-	box-shadow: 12px 12px 32px 10px rgb(0 0 0 / 30%);
+  box-shadow: 12px 12px 32px 10px rgb(0 0 0 / 30%);
 }
-
 
 .services-container__card__img {
   width: 108px;
