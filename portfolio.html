@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Header component -->
+    <link rel="stylesheet" href="./components/header.css">
+    <script defer src="./components/header.js"></script>
+    <!-- Footer component -->
+    <link rel="stylesheet" href="./components/footer.css">
+    <script defer src="./components/footer.js"></script>
+    <!-- Portfolio css y js -->
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <script defer src="./js/portfolio.js"></script>
+
+</head>
+<body>
+    <div class="container-header-portfolio">
+        <div class="header"></div>
+
+        <section class="portfolio">
+            <h1 class="portfolio__title">Portfolio</h1>
+            <div class="portfolio__container"></div>
+        </section>
+
+        <template id="portfolio__card__template">
+            <div class="portfolio-container__card">
+                <img class="portfolio-container__card__img" src="https://cdn-icons-png.flaticon.com/512/6074/6074287.png"
+                    alt="portfolio-container__card__img">
+                <h4 class="portfolio-container__card__title">Titulo</h4>
+                <p class="portfolio-container__card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                    delectus
+                    voluptates animi alias quo sit dignissimos odit, iste accusamus quaerat eligendi magni recusandae quis ipsa
+                    nesciunt officia distinctio nam non.</p>
+            </div>
+        </template>
+
+    </div>
+    <footer class="footer"></footer>
+    
+</body>
+</html>

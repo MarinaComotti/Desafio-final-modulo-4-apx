@@ -1,0 +1,65 @@
+/* FORMULARIO ----- */
+.form {
+  background-color: hsla(0, 0%, 5%, 0.533);
+  min-width: 380px;
+  height: 100vh;
+  padding: 45px;
+}
+
+@media (min-width: 960px) {
+  .form {
+    height: 90vh;
+  }
+}
+
+@media (min-width: 960px) {
+  .newDivForm {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    justify-items: flex-end;
+    height: 80vh;
+  }
+}
+
+.form__title {
+  margin: 0;
+  font-size: 32px;
+  text-align: center;
+  height: 15vh;
+}
+.form__conteiner {
+  max-width: 350px;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+@media (min-width: 960px) {
+  .form__conteiner {
+    width: 100%;
+  }
+}
+
+.form-container__title {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+.form-container__input {
+  height: 35px;
+  width: 100%;
+}
+
+.form-container__message {
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+  height: 150px;
+}
+
+.form-container__button {
+  height: 45px;
+  border-radius: 1.5px;
+  font-size: 16px;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}

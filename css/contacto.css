@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
+
+.header-container{
+    height: 20vh;
+
+}
+
+.container-header-contact{
+     /* background-image: url("./contact\ background\ 5.jpg"); */
+     height: 138vh;
+
+}
+
+.form{
+   /* background-color: inherit; */
+   padding: 65px;
+   height: 117vh;
+  
+}

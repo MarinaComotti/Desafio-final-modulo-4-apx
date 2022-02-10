@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
+
+.container-header-welcome {
+  min-width: 380px;
+  height: 95vh;
+  background-image: url("https://eda.europa.eu/images/default-source/news-pictures/solar-panels-and-wind.jpeg");
+}
+
+
+.welcome {
+  min-width: 380px;
+  height: 80vh;
+  /* border: solid salmon; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome__title-main {
+  font-size: 75px;
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  color: white;
+}
+
+/* PRESENTATION CSS */
+
+.presentation {
+  min-width: 380px;
+  height: 95vh;
+  background-color: hsla(0, 0%, 5%, 0.533);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 960px) {
+  .presentation-container__card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+}
+
+.presentation__img {
+  height: 277px;
+  width: 360px;
+  display: none;
+}
+@media (min-width: 960px) {
+  .presentation__img {
+    display: initial;
+    border-radius: 45px;
+  }
+}
+
+@media (min-width: 960px) {
+  .presentation__container {
+    justify-self: baseline;
+  }
+}
+
+.presentation__container__title {
+  margin: 0;
+  font-size: 45px;
+  font-style: italic;
+}
+.presentation__container__text {
+  font-size: 18px;
+  text-align: justify;
+  width: 421px;
+  height: 193px;
+  margin-top: 45px;
+}
+
+/* SERVICES index CSS */
+
+.services {
+  min-width: 380px;
+  height: 265vh;
+}
+@media (min-width: 960px) {
+  .services {
+    height: 141vh;
+  }
+}
+.services__title {
+  font-size: 32px;
+  text-align: center;
+  margin: 0;
+  height: 15vh;
+  margin-top: 30px;
+}
+.services__container {
+  /* border: solid salmon; */
+  height: 180vh;
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+}
+@media (min-width: 960px) {
+  .services__container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 126vh;
+    justify-items: center;
+  }
+}
+
+.services-container__card {
+  /* border: solid salmon; */
+  height: 331px;
+  width: 331px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services-container__card__img {
+  width: 108px;
+  height: 108px;
+}
+.services-container__card__title {
+  font-size: 24px;
+  margin: 0;
+}
+.services-container__card__description {
+  width: auto;
+  font-size: 16px;
+  margin: 0;
+  text-align: justify;
+}
