@@ -14,7 +14,10 @@ function closeOpenWindowMenu (){
 function headerComponent(el){
     const headerEl = document.createElement("div");
     headerEl.innerHTML = `<header class="header-container">
-            <img src="./Logo/Logo (2).png" alt="Logo" class="header__logo">
+             <a href="./index.html" class="">
+             <img src="./Logo/Logo (2).png" alt="Logo" class="header__logo">
+             </a>
+            
             <button class="header__menu__open-button">
                 <div class="menu__rectangulo"></div>
                 <div class="menu__rectangulo"></div>

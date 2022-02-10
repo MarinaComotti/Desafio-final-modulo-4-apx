@@ -9,7 +9,9 @@ body {
 .container-header-welcome {
   min-width: 380px;
   height: 95vh;
-  background-image: url("https://eda.europa.eu/images/default-source/news-pictures/solar-panels-and-wind.jpeg");
+  background-image: url("./background\ index.jpg");
+  background-size: cover;
+  /* https://eda.europa.eu/images/default-source/news-pictures/solar-panels-and-wind.jpeg */
 }
 
 
@@ -41,12 +43,18 @@ body {
   justify-content: center;
 }
 
+.presentation-container__card{
+  width: 100%;
+  height: 100%;
+}
+
 @media (min-width: 960px) {
   .presentation-container__card {
-    width: 100%;
+    
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.8fr 1fr;
     justify-items: center;
+    align-items: center;
   }
 }
 
@@ -62,6 +70,12 @@ body {
   }
 }
 
+.presentation__container{
+  width: 100%;
+  height: 100%;
+  padding-top: 45px;
+}
+
 @media (min-width: 960px) {
   .presentation__container {
     justify-self: baseline;
@@ -72,13 +86,20 @@ body {
   margin: 0;
   font-size: 45px;
   font-style: italic;
+  text-align: center;
 }
 .presentation__container__text {
   font-size: 18px;
-  text-align: justify;
-  width: 421px;
-  height: 193px;
-  margin-top: 45px;
+  text-align: center;
+  max-width: 421px;
+  height: 450px;
+  margin: 50px auto 0 auto;
+
+}
+@media (min-width: 960px){
+  .presentation__container__text{
+    text-align: justify;
+  }
 }
 
 /* SERVICES index CSS */
@@ -101,7 +122,7 @@ body {
 }
 .services__container {
   /* border: solid salmon; */
-  height: 180vh;
+  height: 250vh;
   display: grid;
   justify-content: center;
   gap: 10px;
@@ -122,8 +143,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  border-radius: 10px;
+	box-shadow: 1px 1px 12px -5px rgb(0 0 0 / 90%);
 }
+.services-container__card:hover {
+	box-shadow: 12px 12px 32px 10px rgb(0 0 0 / 30%);
+}
+
 
 .services-container__card__img {
   width: 108px;
@@ -137,5 +164,5 @@ body {
   width: auto;
   font-size: 16px;
   margin: 0;
-  text-align: justify;
+  text-align: center;
 }

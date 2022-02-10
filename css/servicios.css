@@ -10,10 +10,11 @@ body {
   /* border: solid black; */
   background-image: url("./services.css-background2.jpg");
   height: 295vh;
+  background-size: cover;
 }
 @media (min-width: 960px) {
   .container-header-services {
-    height: 178vh;
+    height: 190vh;
   }
 }
 
@@ -27,7 +28,7 @@ body {
 }
 @media (min-width: 960px) {
   .servicios {
-    height: 155vh;
+    height: 167vh;
   }
 }
 .servicios__title {
@@ -62,8 +63,8 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
-  
-    height: 115vh;
+    align-items: center;
+    height: 123vh;
   }
 }
 
@@ -75,7 +76,13 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: 1px 1px 12px -5px rgb(0 0 0 / 90%);
 }
+.services-container__card:hover {
+  box-shadow: 12px 12px 32px 10px rgb(0 0 0 / 30%);
+}
+
 .services-container__card__img {
   width: 120px;
   height: 120px;
@@ -86,7 +93,8 @@ body {
 }
 .services-container__card__description {
   width: auto;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
-  text-align: justify;
+  text-align: center;
+  padding: 0 3px;
 }

@@ -10,6 +10,7 @@ body {
   /* border: solid black; */
   background-image: url("./portfolio-background2.jpg");
   height: 316vh;
+ 
 }
 @media (min-width: 960px) {
   .container-header-portfolio {
@@ -76,10 +77,18 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: 1px 1px 12px -5px rgb(0 0 0 / 90%);
 }
+
+.portfolio-container__card:hover {
+  box-shadow: 12px 12px 32px 10px rgb(0 0 0 / 30%);
+}
+
 .portfolio-container__card__img {
   width: 200px;
   height: 200px;
+  border-radius: 10px;
 }
 .portfolio-container__card__title {
   font-size: 24px;
@@ -87,7 +96,7 @@ body {
 }
 .portfolio-container__card__description {
   width: auto;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
-  text-align: justify;
+  text-align: center;
 }
