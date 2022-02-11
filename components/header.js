@@ -27,15 +27,15 @@ function headerComponent(el){
                     <button class="menu__container__close-button">X</button>
                     <div class="menu__container__links">
                         <a href="./portfolio.html" class="container__links__a">Portfolio</a>
-                        <a href="./servicios.html" class="container__links__a">Servicios</a>
-                        <a href="./contacto.html" class="container__links__a">Contacto</a>
+                        <a href="./servicios.html" class="container__links__a">Services</a>
+                        <a href="./contacto.html" class="container__links__a">Contact</a>
 
                     </div>
             </div>
             <div class="menu__container-expanded">
                 <a href="./portfolio.html" class="container__links__a expanded">Portfolio</a>
-                <a href="./servicios.html" class="container__links__a expanded">Servicios</a>
-                <a href="./contacto.html" class="container__links__a expanded">Contacto</a>
+                <a href="./servicios.html" class="container__links__a expanded">Services</a>
+                <a href="./contacto.html" class="container__links__a expanded">Contact</a>
             </div>
         </header>`
 

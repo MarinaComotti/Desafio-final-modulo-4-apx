@@ -1,7 +1,7 @@
 function footerComponent (footerEl){
     const newFooterEl = document.createElement("div");
-    newFooterEl.innerHTML= `<img src="./Logo/Logo (2).png" alt="Logo" class="footer__logo">
-<div class="footer__container-social-medias">
+    newFooterEl.innerHTML= ` <a href="./index.html"><img src="./Logo/Logo (2).png" alt="Logo" class="footer__logo"></a>
+    <div class="footer__container-social-medias">
     <div class="footer__social-medias">
         <a href="https://www.instagram.com/" class="social-medias__title">Instagram</a>
         <img src="./components/instagram.png" alt="instagram-logo" class="social-medias__logo">

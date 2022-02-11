@@ -11,7 +11,7 @@
   justify-content: space-evenly;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 790px) {
   .newFooter {
     flex-direction: row;
     justify-content: space-between;
@@ -20,8 +20,8 @@
 }
 
 .footer__logo {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 .footer__container-social-medias {
   height: 200px;

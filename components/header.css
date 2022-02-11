@@ -21,7 +21,7 @@
   margin-right: 10px;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 790px) {
   .header__menu__open-button {
     display: none;
   }
@@ -39,7 +39,7 @@
   display: none;
   background-color: gray;
   width: 200px;
-  height: 40vh;
+  height: 37vh;
   text-align: end;
   border-radius: 2px;
   position: absolute;
@@ -82,7 +82,7 @@
   font-size: 20px;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 790px) {
   .expanded:hover {
     color: #c0c0c0;
   }
@@ -92,7 +92,7 @@
   display: none;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 790px) {
   .menu__container-expanded {
     display: initial;
   }

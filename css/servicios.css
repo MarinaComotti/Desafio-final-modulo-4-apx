@@ -12,7 +12,7 @@ body {
   height: 295vh;
   background-size: cover;
 }
-@media (min-width: 960px) {
+@media (min-width: 790px) {
   .container-header-services {
     height: 190vh;
   }
@@ -26,7 +26,7 @@ body {
   text-align: center;
   margin-top: 45px;
 }
-@media (min-width: 960px) {
+@media (min-width: 790px) {
   .servicios {
     height: 167vh;
   }
@@ -38,7 +38,7 @@ body {
   font-style: italic;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 790px) {
   .servicios__title {
     /* border: solid red; */
     margin: 0;
@@ -57,14 +57,14 @@ body {
   justify-content: center;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 790px) {
   .services__container {
     background-color: rgb(105, 101, 101);
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    height: 123vh;
+    height: 125vh;
   }
 }
 

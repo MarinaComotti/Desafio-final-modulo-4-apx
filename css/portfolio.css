@@ -14,7 +14,7 @@ body {
   
  
 }
-@media (min-width: 960px) {
+@media (min-width: 790px) {
   .container-header-portfolio {
     height: 213vh;
   }
@@ -28,7 +28,7 @@ body {
   text-align: center;
   margin-top: 45px;
 }
-@media (min-width: 960px) {
+@media (min-width: 790px) {
   .portfolio {
     height: 191vh;
   }
@@ -40,7 +40,7 @@ body {
   font-style: italic;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 790px) {
   .portfolio__title {
     /* border: solid red; */
     margin: 0;
@@ -59,7 +59,7 @@ body {
   justify-content: center;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 790px) {
   .portfolio__container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
